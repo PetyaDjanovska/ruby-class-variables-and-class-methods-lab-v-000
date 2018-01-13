@@ -49,10 +49,10 @@ class Song
       if artist_hash.has_key?(key)
         srtist_hash[key] = i + 1
       else
-        srtist_hash[key] = 1
+        artist_hash[key] = 1
       end
     end
-    genres_hash
+    artist_hash
   end
 
 
