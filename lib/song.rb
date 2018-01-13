@@ -40,7 +40,7 @@ class Song
         genres_hash[key] = 1
       end
     end
-    genfres_hash
+    genres_hash
   end
 
 end
