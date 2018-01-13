@@ -38,6 +38,7 @@ class Song
         genres_hash[key] = i + 1
       else
         genres_hash[key] = 1
+      end
     end
   end
 
