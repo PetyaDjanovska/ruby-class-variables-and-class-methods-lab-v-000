@@ -47,7 +47,7 @@ class Song
     artist_hash = {}
     @@artists.each_with_index do |key,i|
       if artist_hash.has_key?(key)
-        srtist_hash[key] = i + 1
+        artist_hash[key] = i + 1
       else
         artist_hash[key] = 1
       end
