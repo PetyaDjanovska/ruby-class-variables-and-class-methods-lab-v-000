@@ -31,5 +31,14 @@ class Song
     @@genres.uniq
   end
 
+  def self.genre_count
+    genres_hash = {}
+    @@genres.each_with_index do |key,i|
+      if genres_hash.has_key(key)
+        genres_hash[key] = i + 1
+      else
+        genres_hash[key] = 1
+    end
+  end
 
 end
